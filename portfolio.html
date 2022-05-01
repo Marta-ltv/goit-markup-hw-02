@@ -5,19 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница портфолио</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+  rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 
 <body>
     <!-- Шапка сайту-->
     <header class="header">
-      <a href="WebStudio" aria-label="Логотип сайта WebStudio">Web<span class="studio">Studio</span></a>
+      <a class="logo-black" href="WebStudio" aria-label="Логотип сайта WebStudio">WebStudio</a>
 
       <nav class="navigation">
         <ul class="list">
           <li class="item">
-            <a class="link" href="index.html">Студия</a>
+            <a class="link" href="./index.html">Студия</a>
           </li>
           <li class="item">
             <a class="link" href="#">Портфолио</a>
@@ -30,21 +34,18 @@
 
         <ul class="list">
           <li class="item">
-            <a class="item" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <a class="item-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li class="item">
-            <a class="item" href="tel:380961111111">+38 096 111 11 11</a>
+            <a class="item-phone" href="tel:380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-    </header>
+        </header>
 
-    <main>
+    <main class="portfolio">
     <!--Секція послуги-->
-    <nav class="navigation-btn"
-    
-    <ul class="nav-btn">
+    <nav class="navigation-btn">
+    <ul class="navigation-btn">
         <li class="nav-btn">
             <button class="nav-btn" type="button">Все</button>
         </li>
@@ -61,7 +62,8 @@
             <button class="nav-btn" type="button">Маркетинг</button>
         </li>
     </ul>
-<h1 class="services">Услуги</h1>
+  </nav>
+
     <ul class="services">
         <li class="services-item">
 <img class="services-img" src="./images/portfolio/img-1.jpg" alt="Три члены нашей команды" width="370" height="294" />
@@ -105,7 +107,7 @@
 
     <!--Підвал сайту-->
     <footer class="footer">
-        <a href="WebStudio" aria-label="Логотип сайта WebStudio">Web<span class="studio">Studio</span></a>
+        <a class="logo" href="WebStudio" aria-label="Логотип сайта WebStudio">Web<span class="studio-white">Studio</span></a>
         <address class="footer">
             <ul class="list">
                 <li class="item">
