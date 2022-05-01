@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная страница веб-студии</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- Шапка сайту-->
     <header class="header">
-      <a href="WebStudio" aria-label="Логотип сайта WebStudio">Web<span class="studio">Studio</span></a>
+      <a class="logo" href="WebStudio" aria-label="Логотип сайта WebStudio"
+        >Web<span class="studio-black">Studio</span></a
+      >
 
       <nav class="navigation">
         <ul class="list">
@@ -27,57 +35,50 @@
           </li>
         </ul>
       </nav>
-      
-        <ul class="list">
-          <li class="item">
-            <a class="item" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="item">
-            <a class="item" href="tel:380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      
+
+      <ul class="list">
+        <li class="item">
+          <a class="item-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="item">
+          <a class="item-phone" href="tel:380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
 
     <main>
       <!--Секція Герой-->
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="slider-btn" type="button">Заказать услугу</button>
+        <button class="btn" type="button">Заказать услугу</button>
       </section>
 
       <!--Секція Особливості-->
       <section class="feature">
-        /*<h2 class="feature">Наші переваги</h2>*/
+        <h2 class="feature">Преимущества</h2>
         <ul class="list">
           <li class="item">
             <h3 class="feature">Внимание к деталям</h3>
             <p class="description">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
             </p>
           </li>
           <li class="item">
             <h3 class="feature">Пунктуальность</h3>
             <p class="description">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
+              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
           <li class="item">
             <h3 class="feature">Планирование</h3>
             <p class="description">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
+              Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
           <li class="item">
             <h3 class="feature">Современные технологии</h3>
             <p class="description">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
             </p>
           </li>
         </ul>
@@ -171,19 +172,23 @@
 
     <!--Підвал сайту-->
     <footer class="footer">
-      <a href="WebStudio" aria-label="Логотип сайта WebStudio">Web<span class="studio">Studio</span></a>
+      <a class="logo" href="WebStudio" aria-label="Логотип сайта WebStudio"
+        >Web<span class="studio-white">Studio</span></a
+      >
       <address class="footer">
         <ul class="list">
-          <li class="item">
-          <a href="address" aria-label="Ссилка на сайт Google maps">г. Киев, пр-т Леси Украинки, 26</a>
+          <li class="item-address">
+            <a href="address" aria-label="Ссилка на сайт Google maps"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
           </li>
-          <li class="item">
-          <a href="mailto:info@example.com">info@example.com</a>
+          <li class="mail">
+            <a href="mailto:info@example.com">info@example.com</a>
           </li>
-          <li class="item">
-          <a href="tel:380991111111">+38 099 111 11 11</a>
+          <li class="phone">
+            <a href="tel:380991111111">+38 099 111 11 11</a>
           </li>
-          </ul>
+        </ul>
       </address>
     </footer>
   </body>
