@@ -28,7 +28,7 @@ font-style: none;
 
 /* секція header */
 .logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -46,7 +46,7 @@ color: var(--white-color);
 }
 
 .logo-black {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -125,6 +125,7 @@ line-height: 1.63;
 letter-spacing: 0.03em;
 text-decoration: none;
 font-style: none;
+cursor: pointer;
 
 color: var(--main-txt-cl);
 }
