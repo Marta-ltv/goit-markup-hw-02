@@ -128,7 +128,6 @@ letter-spacing: 0.03em;
 text-decoration: none;
 font-style: normal;
 cursor: pointer;        
-text-align: center;    
 
 color: var(--main-txt-cl);
 }
