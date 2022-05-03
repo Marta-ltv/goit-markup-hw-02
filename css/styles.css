@@ -13,7 +13,7 @@
 --main-bg-cl: #E5E5E5;
 --secondary-bg-cl: #2F303A;
 --white-bg-cl: #FFFFFF;
-
+--accent-bg-cl: #2196F3;
 }
 body {
 font-family: var(--main-font);
@@ -137,6 +137,16 @@ color: var(--main-txt-cl);
 color: var(--white-color);
 background: var(--accent-cl);
 }
+
+.link.active:active {
+    color: var(--accent-cl);
+}
+
+.nav-btn:active {
+    color: --white-color;
+    border-color: --accent-bg-cl;
+}
+
 
 /*Features*/
 .feature {
