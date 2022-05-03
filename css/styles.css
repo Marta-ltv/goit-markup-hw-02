@@ -23,7 +23,7 @@ letter-spacing: 0.03em;
 text-decoration: none;
 font-style: none;
     
-    color: var(--main-txt-cl);
+color: var(--main-txt-cl);
 }
 
 /* секція header */
@@ -85,9 +85,9 @@ list-style: none;
 
 .link:hover,
 .link:focus {
-    color: var(--accent-cl);
-
+color: var(--accent-cl);
 }
+
 .hero-title {
 font-weight: 900;
 font-size: 44px;
@@ -112,10 +112,11 @@ line-height: 1.88;
 letter-spacing: 0.06em;
 cursor: pointer;
 text-decoration: none;
-font-style: none;
+font-style: normal;
+align-items: center;
+text-align: center;
 
 background: #2196F3;
-
 color: var(--white-color);
 }
 .nav-btn {
@@ -124,8 +125,8 @@ font-size: 16px;
 line-height: 1.63;
 letter-spacing: 0.03em;
 text-decoration: none;
-font-style: none;
-cursor: pointer;
+font-style: normal;
+cursor: pointer;            
 
 color: var(--main-txt-cl);
 }
@@ -163,7 +164,7 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 
-    color: var(--main-txt-cl);
+color: var(--main-txt-cl);
 }
 
 .member-title {
@@ -173,7 +174,7 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 
-    color: var(--main-txt-cl);
+color: var(--main-txt-cl);
 }
 
 .member-position {
@@ -186,7 +187,7 @@ letter-spacing: 0.03em;
 color: var(--secondary-txt-cl);
 }
 
-/*portfolio main*/
+/*Portfolio main*/
 .services-title {
 font-weight: 700;
 font-size: 18px;
@@ -210,7 +211,7 @@ color: var(--secondary-txt-cl);
 background-color: var(--main-bg-cl);
 }
 
-/*footer*/
+/*Footer*/
 .footer {
 background-color: var(--secondary-bg-cl);
 }
@@ -219,13 +220,8 @@ a {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-font-style: none;
+font-style: normal;
 text-decoration: none;
 
 color: var(--white-color);
 }
-
-.a-mail, .a-phone {
-color: var(rgba(255, 255, 255, 0.6);
-}
-
