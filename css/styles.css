@@ -14,6 +14,7 @@
   --white-bg-cl: #ffffff;
   --accent-bg-cl: #2196f3;
 }
+
 body {
   font-family: var(--main-font);
   font-size: 14px;
@@ -22,6 +23,7 @@ body {
 
   color: var(--main-txt-cl);
 }
+
 
 /* секція header */
 .navigation .link {
@@ -144,6 +146,10 @@ button.nav-btn:focus {
 
   color: var(--main-txt-cl);
 }
+
+.feature .description{
+  font-weight: 400;
+}
 .description {
   font-size: 14px;
   line-height: 1.71;
@@ -200,6 +206,9 @@ button.nav-btn:focus {
   line-height: 1.88;
 
   color: var(--secondary-txt-cl);
+}
+.services-img {
+  text-decoration: none;
 }
 
 .portfolio {
